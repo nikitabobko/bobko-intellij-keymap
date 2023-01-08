@@ -115,12 +115,12 @@
     <mouse-shortcut keystroke="meta button1"/>
   </action>
   <action id="Stop">
-    <keyboard-shortcut first-keystroke="control meta F2"/>
-    <keyboard-shortcut first-keystroke="control alt F2"/>
+    <keyboard-shortcut first-keystroke="control meta 2"/>
+    <keyboard-shortcut first-keystroke="control alt 2"/>
   </action>
   <action id="StopBackgroundProcesses">
-    <keyboard-shortcut first-keystroke="control meta shift F2"/>
-    <keyboard-shortcut first-keystroke="control alt shift F2"/>
+    <keyboard-shortcut first-keystroke="control meta shift 2"/>
+    <keyboard-shortcut first-keystroke="control alt shift 2"/>
   </action>
 
   <!-- <action id="HideAllWindows"> -->
