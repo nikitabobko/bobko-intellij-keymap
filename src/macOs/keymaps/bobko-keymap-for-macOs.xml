@@ -1,0 +1,5 @@
+<keymap version="1" name="bobko-keymap-for-macOs" disable-mnemonics="false">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="meta 1"/>
+  </action>
+</keymap>
