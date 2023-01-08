@@ -93,6 +93,14 @@
     <keyboard-shortcut first-keystroke="control alt O"/>
     <keyboard-shortcut first-keystroke="control meta O"/>
   </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="alt L"/>
+    <keyboard-shortcut first-keystroke="meta L"/>
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="alt H"/>
+    <keyboard-shortcut first-keystroke="meta H"/>
+  </action>
 
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="control alt 8"/>
