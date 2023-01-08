@@ -1,6 +1,6 @@
 <idea-plugin>
   <name>Bobko macOs Keymap</name>
-  <id>xyz.bobko.keymap</id>
+  <id>xyz.bobko.keymap.macos</id>
   <version>1.0.0</version>
   <vendor>Bobko</vendor>
   <category>Keymap</category>

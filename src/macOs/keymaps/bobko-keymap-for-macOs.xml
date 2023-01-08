@@ -1,5 +1,73 @@
-<keymap version="1" name="bobko-keymap-for-macOs" disable-mnemonics="false">
+<keymap version="1" name="bobko-keymap-for-macOs" disable-mnemonics="false" parent="$default">
+  <!-- tool windows -->
+  <action id="ActivateBookmarksToolWindow"/>
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="meta 0"/>
+    <keyboard-shortcut first-keystroke="alt 0"/>
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="meta 1"/>
+    <keyboard-shortcut first-keystroke="alt 1"/>
   </action>
+  <action id="ActivateBuildToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2"/>
+    <keyboard-shortcut first-keystroke="alt 2"/>
+  </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="meta 3"/>
+    <keyboard-shortcut first-keystroke="alt 3"/>
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="meta 4"/>
+    <keyboard-shortcut first-keystroke="alt 4"/>
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="meta 5"/>
+    <keyboard-shortcut first-keystroke="alt 5"/>
+  </action>
+
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="control shift A"/>
+  </action>
+
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="meta ENTER"/>
+    <keyboard-shortcut first-keystroke="alt ENTER"/>
+  </action>
+
+  <action id="Inline">
+    <keyboard-shortcut first-keystroke="control alt N"/>
+  </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="control alt V"/>
+  </action>
+
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="control alt V"/>
+  </action>
+
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="DOWN"/>
+    <keyboard-shortcut first-keystroke="control N"/>
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="UP"/>
+    <keyboard-shortcut first-keystroke="control P"/>
+  </action>
+
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="meta shift R"/>
+    <keyboard-shortcut first-keystroke="alt shift R"/>
+  </action>
+  <!-- Run current configuration -->
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta R"/>
+    <keyboard-shortcut first-keystroke="alt R"/>
+  </action>
+
+  <!-- hide all tool windwos -->
+  <!-- run -->
+  <!-- debug -->
+  <!-- type hierarchy -->
+  <!-- find usages -->
 </keymap>

@@ -11,3 +11,5 @@ bobko-keymap-for-macOs
         └── keymaps
             └── bobko-keymap-for-macOs.xml
 ```
+
+Bundled keymaps: https://github.com/JetBrains/intellij-community/tree/master/platform/platform-resources/src/keymaps
