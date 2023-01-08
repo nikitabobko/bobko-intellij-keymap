@@ -1,7 +1,6 @@
 <keymap version="1" name="bobko-keymap" disable-mnemonics="false" parent="$default">
   <!-- meta is command on macOs -->
 
-  <!-- tool windows -->
   <action id="ActivateBookmarksToolWindow"/>
   <action id="ActivateCommitToolWindow">
     <keyboard-shortcut first-keystroke="meta 0"/>
@@ -39,14 +38,16 @@
 
   <action id="Inline">
     <keyboard-shortcut first-keystroke="control alt N"/>
+    <keyboard-shortcut first-keystroke="control meta N"/>
   </action>
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="control alt V"/>
+    <keyboard-shortcut first-keystroke="control meta V"/>
   </action>
 
-  <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="control alt V"/>
-  </action>
+  <!-- <action id="HideAllWindows"> -->
+  <!--   <keyboard-shortcut first-keystroke="control alt V"/> -->
+  <!-- </action> -->
 
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="DOWN"/>
@@ -61,15 +62,53 @@
     <keyboard-shortcut first-keystroke="meta shift R"/>
     <keyboard-shortcut first-keystroke="alt shift R"/>
   </action>
-  <!-- Run current configuration -->
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta R"/>
     <keyboard-shortcut first-keystroke="alt R"/>
   </action>
 
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="meta shift D"/>
+    <keyboard-shortcut first-keystroke="alt shift D"/>
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="meta D"/>
+    <keyboard-shortcut first-keystroke="alt D"/>
+  </action>
+
+  <action id="TypeHierarchy">
+    <keyboard-shortcut first-keystroke="control alt H"/>
+    <keyboard-shortcut first-keystroke="control meta H"/>
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt U"/>
+    <keyboard-shortcut first-keystroke="meta U"/>
+  </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="alt shift O"/>
+    <keyboard-shortcut first-keystroke="meta shift O"/>
+  </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="alt O"/>
+    <keyboard-shortcut first-keystroke="meta O"/>
+  </action>
+  <action id="SelectIn"/>
+
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="meta shift 7"/>
+    <keyboard-shortcut first-keystroke="alt shift 7"/>
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="meta 7"/>
+    <keyboard-shortcut first-keystroke="alt 7"/>
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="meta 9"/>
+    <keyboard-shortcut first-keystroke="alt 9"/>
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="meta 8"/>
+    <keyboard-shortcut first-keystroke="alt 8"/>
+  </action>
   <!-- hide all tool windwos -->
-  <!-- run -->
-  <!-- debug -->
-  <!-- type hierarchy -->
-  <!-- find usages -->
 </keymap>
