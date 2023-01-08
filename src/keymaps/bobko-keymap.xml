@@ -88,7 +88,10 @@
     <keyboard-shortcut first-keystroke="alt O"/>
     <keyboard-shortcut first-keystroke="meta O"/>
   </action>
+  <!-- I need to break my ctrl+f1 muscle memory -->
   <action id="SelectIn"/>
+  <!-- Unasign default control n -->
+  <action id="GotoClass"/>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="control alt O"/>
     <keyboard-shortcut first-keystroke="control meta O"/>
@@ -100,6 +103,11 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="alt H"/>
     <keyboard-shortcut first-keystroke="meta H"/>
+  </action>
+  <!-- copy path from repository root -->
+  <action id="CopyPathFromRepositoryRootProvider">
+    <keyboard-shortcut first-keystroke="alt shift C"/>
+    <keyboard-shortcut first-keystroke="meta shift C"/>
   </action>
 
   <action id="ToggleLineBreakpoint">
