@@ -54,6 +54,8 @@
     <keyboard-shortcut first-keystroke="control P"/>
   </action>
 
+  <!-- alt shift r is assigned to RerunTests by default. Drop the shortcut -->
+  <action id="RerunTests"/>
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="meta shift R"/>
     <keyboard-shortcut first-keystroke="alt shift R"/>
