@@ -2,14 +2,14 @@
 
 Plugin layout:
 ```
-bobko-keymap-for-macOs
+bobko-keymap
 └── lib
-    └── bobko-keymap-for-macOs.jar
+    └── bobko-keymap.jar
         ├── META-INF
-        │   ├── MANIFEST.MF
-        │   └── plugin.xml
+        │   ├── MANIFEST.MF
+        │   └── plugin.xml
         └── keymaps
-            └── bobko-keymap-for-macOs.xml
+            └── bobko-keymap.xml
 ```
 
 Bundled keymaps: https://github.com/JetBrains/intellij-community/tree/master/platform/platform-resources/src/keymaps

@@ -10,21 +10,20 @@ cd "$(dirname "$0")"
 rm -rf build
 
 build-jar() {
-    mkdir build/bobko-keymap-for-$1-jar
-    cp src/$1/* build/bobko-keymap-for-$1-jar
-    pushd build/bobko-keymap-for-$1-jar
-        jar -c --verbose --file=bobko-keymap-for-$1.jar *
+    mkdir build/bobko-keymap-jar
+    cp src/* build/bobko-keymap-jar
+    pushd build/bobko-keymap-jar
+        jar -c --verbose --file=bobko-keymap.jar *
     popd
 }
 
 build-plugin() {
-    install -D -m644 build/bobko-keymap-for-$1-jar/bobko-keymap-for-$1.jar \
-                     build/bobko-keymap-for-$1/lib/bobko-keymap-for-$1.jar
+    install -D -m644 build/bobko-keymap-jar/bobko-keymap.jar \
+                     build/bobko-keymap/lib/bobko-keymap.jar
     pushd build
-        zip -r bobko-keymap-for-$1.zip bobko-keymap-for-$1
+        zip -r bobko-keymap.zip bobko-keymap
     popd
 }
 
-build-jar macOs
-build-plugin macOs
-
+build-jar
+build-plugin

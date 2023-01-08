@@ -1,12 +1,12 @@
 <idea-plugin>
-  <name>Bobko macOs Keymap</name>
-  <id>xyz.bobko.keymap.macos</id>
+  <name>Bobko Keymap</name>
+  <id>xyz.bobko.keymap</id>
   <version>1.0.0</version>
   <vendor>Bobko</vendor>
   <category>Keymap</category>
   <description>Bobko keymap</description>
   <depends>com.intellij.modules.lang</depends>
   <extensions defaultExtensionNs="com.intellij">
-    <bundledKeymap file="bobko-keymap-for-macOs.xml"/>
+    <bundledKeymap file="bobko-keymap.xml"/>
   </extensions>
 </idea-plugin>

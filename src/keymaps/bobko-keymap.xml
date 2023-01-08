@@ -1,4 +1,6 @@
-<keymap version="1" name="bobko-keymap-for-macOs" disable-mnemonics="false" parent="$default">
+<keymap version="1" name="bobko-keymap" disable-mnemonics="false" parent="$default">
+  <!-- meta is command on macOs -->
+
   <!-- tool windows -->
   <action id="ActivateBookmarksToolWindow"/>
   <action id="ActivateCommitToolWindow">
