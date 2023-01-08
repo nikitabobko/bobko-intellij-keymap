@@ -89,6 +89,10 @@
     <keyboard-shortcut first-keystroke="meta O"/>
   </action>
   <action id="SelectIn"/>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="control alt O"/>
+    <keyboard-shortcut first-keystroke="control meta O"/>
+  </action>
 
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="control alt 8"/>
