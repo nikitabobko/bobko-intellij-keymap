@@ -45,10 +45,6 @@
     <keyboard-shortcut first-keystroke="control meta V"/>
   </action>
 
-  <!-- <action id="HideAllWindows"> -->
-  <!--   <keyboard-shortcut first-keystroke="control alt V"/> -->
-  <!-- </action> -->
-
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="DOWN"/>
     <keyboard-shortcut first-keystroke="control N"/>
@@ -94,6 +90,10 @@
   </action>
   <action id="SelectIn"/>
 
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="control alt 8"/>
+    <keyboard-shortcut first-keystroke="control meta 8"/>
+  </action>
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="meta shift 7"/>
     <keyboard-shortcut first-keystroke="alt shift 7"/>
@@ -110,5 +110,21 @@
     <keyboard-shortcut first-keystroke="meta 8"/>
     <keyboard-shortcut first-keystroke="alt 8"/>
   </action>
-  <!-- hide all tool windwos -->
+  <action id="QuickEvaluateExpression">
+    <mouse-shortcut keystroke="alt button1"/>
+    <mouse-shortcut keystroke="meta button1"/>
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="control meta F2"/>
+    <keyboard-shortcut first-keystroke="control alt F2"/>
+  </action>
+  <action id="StopBackgroundProcesses">
+    <keyboard-shortcut first-keystroke="control meta shift F2"/>
+    <keyboard-shortcut first-keystroke="control alt shift F2"/>
+  </action>
+
+  <!-- <action id="HideAllWindows"> -->
+  <!--   <keyboard-shortcut first-keystroke="control alt V"/> -->
+  <!-- </action> -->
+
 </keymap>
