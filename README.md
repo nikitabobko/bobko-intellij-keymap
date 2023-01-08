@@ -1,11 +1,11 @@
 # Bobko IntelliJ keymap plugin
 
 Purpose of the plugin:
-1. Being able to define custom IntelliJ shortcuts and not to worry that IntelliJ will eventually loose them
-2. Version control the keymap
+1. Being able to define custom IntelliJ shortcuts and not to worry that IntelliJ will eventually loose them.
+2. Version control the keymap.
 3. Unification between macOS and Linux. For every binding that uses `alt`, there is analogical binding but with `command`. This way
    muscle memory is preserved between macOS and Linux.
-4. Don't use F-keys, because they are hard to reach on macOS
+4. Don't use F-keys, because they are hard to reach on macOS (because F-keys control the media/system by default on macOS).
 
 Plugin layout:
 ```
