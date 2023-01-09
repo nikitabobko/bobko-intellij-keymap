@@ -145,6 +145,15 @@
     <keyboard-shortcut first-keystroke="control alt shift 2"/>
   </action>
 
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="alt COMMA"/>
+    <keyboard-shortcut first-keystroke="meta COMMA"/>
+  </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="meta SEMICOLON"/>
+    <keyboard-shortcut first-keystroke="alt SEMICOLON"/>
+  </action>
+
   <!-- <action id="HideAllWindows"> -->
   <!--   <keyboard-shortcut first-keystroke="control alt V"/> -->
   <!-- </action> -->
