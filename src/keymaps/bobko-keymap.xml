@@ -10,11 +10,11 @@
     <keyboard-shortcut first-keystroke="meta 1"/>
     <keyboard-shortcut first-keystroke="alt 1"/>
   </action>
-  <action id="ActivateBuildToolWindow">
+  <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="meta 2"/>
     <keyboard-shortcut first-keystroke="alt 2"/>
   </action>
-  <action id="ActivateFindToolWindow">
+  <action id="ActivateBuildToolWindow">
     <keyboard-shortcut first-keystroke="meta 3"/>
     <keyboard-shortcut first-keystroke="alt 3"/>
   </action>
@@ -25,6 +25,12 @@
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="meta 5"/>
     <keyboard-shortcut first-keystroke="alt 5"/>
+  </action>
+  <!-- Unassign alt 6 -->
+  <action id="ActivateProblemsViewToolWindow"/>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6"/>
+    <keyboard-shortcut first-keystroke="meta 6"/>
   </action>
 
   <action id="GotoAction">
@@ -92,7 +98,7 @@
   </action>
   <!-- I need to break my ctrl+f1 muscle memory -->
   <action id="SelectIn"/>
-  <!-- Unasign default control n -->
+  <!-- Unassign default control n -->
   <action id="GotoClass"/>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="control alt O"/>
