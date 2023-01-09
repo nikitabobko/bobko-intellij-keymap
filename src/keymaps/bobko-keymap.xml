@@ -1,7 +1,13 @@
 <keymap version="1" name="bobko-keymap" disable-mnemonics="false" parent="$default">
   <!-- meta is command on macOS -->
 
+  <action id="ActivateUnitTestsToolWindow"/>
+  <action id="ActivateNuGetToolWindow"/>
+  <action id="ActivateServicesToolWindow"/>
+  <action id="ActivateHierarchyToolWindow"/>
+  <action id="ActivateStructureToolWindow"/>
   <action id="ActivateBookmarksToolWindow"/>
+  <action id="ActivateProblemsViewToolWindow"/>
   <action id="ActivateCommitToolWindow">
     <keyboard-shortcut first-keystroke="meta 0"/>
     <keyboard-shortcut first-keystroke="alt 0"/>
@@ -26,8 +32,6 @@
     <keyboard-shortcut first-keystroke="meta 5"/>
     <keyboard-shortcut first-keystroke="alt 5"/>
   </action>
-  <!-- Unassign alt 6 -->
-  <action id="ActivateProblemsViewToolWindow"/>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="alt 6"/>
     <keyboard-shortcut first-keystroke="meta 6"/>
@@ -49,6 +53,14 @@
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="control alt V"/>
     <keyboard-shortcut first-keystroke="control meta V"/>
+  </action>
+  <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="control alt M"/>
+    <keyboard-shortcut first-keystroke="control meta M"/>
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="control alt B"/>
+    <keyboard-shortcut first-keystroke="control meta B"/>
   </action>
 
   <action id="EditorDown">
@@ -167,6 +179,18 @@
   <action id="Diff.PrevChange">
     <keyboard-shortcut first-keystroke="alt shift LEFT"/>
     <keyboard-shortcut first-keystroke="meta shift LEFT"/>
+  </action>
+
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="control ADD" />
+    <keyboard-shortcut first-keystroke="control EQUALS" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="control SUBTRACT" />
+    <keyboard-shortcut first-keystroke="control MINUS" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="control 0" />
   </action>
 
   <!-- <action id="HideAllWindows"> -->
