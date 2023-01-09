@@ -195,6 +195,16 @@
     <keyboard-shortcut first-keystroke="control 0" />
   </action>
 
+  <!-- Delete file -->
+  <action id="Editor Delete">
+    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+
   <!-- <action id="HideAllWindows"> -->
   <!--   <keyboard-shortcut first-keystroke="control alt V"/> -->
   <!-- </action> -->
