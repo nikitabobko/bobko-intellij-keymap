@@ -242,8 +242,12 @@
     <keyboard-shortcut first-keystroke="F4"/>
   </action>
 
+  <!-- Unassign control shift f12 to break muscle memory -->
+  <action id="HideAllWindows"/>
   <!-- <action id="HideAllWindows"> -->
   <!--   <keyboard-shortcut first-keystroke="control alt V"/> -->
   <!-- </action> -->
+
+  <!-- double alt -->
 
 </keymap>
