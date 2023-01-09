@@ -5,7 +5,7 @@ Purpose of the plugin:
 2. Version control the keymap.
 3. Unification between macOS and Linux. For every binding that uses `alt`, there is analogical binding but with `command`. This way
    muscle memory is preserved between macOS and Linux.
-4. Don't use F-keys, because they are hard to reach on macOS (because F-keys control the media/system by default on macOS).
+4. Don't use F-keys, because they are hard to reach on macOS (normally F-keys control the media/system on macOS).
 
 Plugin layout:
 ```
