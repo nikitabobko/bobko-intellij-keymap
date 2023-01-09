@@ -124,6 +124,8 @@
     <keyboard-shortcut first-keystroke="alt H"/>
     <keyboard-shortcut first-keystroke="meta H"/>
   </action>
+  <!-- Unassign alt shift c -->
+  <action id="RecentChanges" />
   <!-- copy path from repository root -->
   <action id="CopyPathFromRepositoryRootProvider">
     <keyboard-shortcut first-keystroke="alt shift C"/>
