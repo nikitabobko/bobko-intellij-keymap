@@ -160,6 +160,15 @@
     <keyboard-shortcut first-keystroke="alt SEMICOLON"/>
   </action>
 
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="alt shift RIGHT"/>
+    <keyboard-shortcut first-keystroke="meta shift RIGHT"/>
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="alt shift LEFT"/>
+    <keyboard-shortcut first-keystroke="meta shift LEFT"/>
+  </action>
+
   <!-- <action id="HideAllWindows"> -->
   <!--   <keyboard-shortcut first-keystroke="control alt V"/> -->
   <!-- </action> -->
