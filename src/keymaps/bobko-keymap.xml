@@ -156,13 +156,14 @@
     <mouse-shortcut keystroke="alt button1"/>
     <mouse-shortcut keystroke="meta button1"/>
   </action>
+  <!-- kill -->
   <action id="Stop">
-    <keyboard-shortcut first-keystroke="control meta 2"/>
-    <keyboard-shortcut first-keystroke="control alt 2"/>
+    <keyboard-shortcut first-keystroke="meta K"/>
+    <keyboard-shortcut first-keystroke="alt K"/>
   </action>
   <action id="StopBackgroundProcesses">
-    <keyboard-shortcut first-keystroke="control meta shift 2"/>
-    <keyboard-shortcut first-keystroke="control alt shift 2"/>
+    <keyboard-shortcut first-keystroke="meta shift K"/>
+    <keyboard-shortcut first-keystroke="alt shift K"/>
   </action>
 
   <action id="ShowSettings">
