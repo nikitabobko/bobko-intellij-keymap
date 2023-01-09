@@ -21,7 +21,7 @@ build-plugin() {
     install -D -m644 build/bobko-keymap-jar/bobko-keymap.jar \
                      build/bobko-keymap/lib/bobko-keymap.jar
     pushd build
-        zip -r bobko-keymap.zip bobko-keymap
+        zip -r --verbose bobko-keymap.zip bobko-keymap
     popd
 }
 
