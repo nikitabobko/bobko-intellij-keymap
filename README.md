@@ -1,6 +1,6 @@
 # Bobko IntelliJ keymap plugin
 
-The main file you're looking for: [bobko-keymap.xml](./src/keymaps/bobko-keymap.xml)
+The main file you're looking for: [src/keymaps/bobko-keymap.xml](./src/keymaps/bobko-keymap.xml)
 
 Purpose of the plugin:
 1. Being able to define custom IntelliJ shortcuts and not to worry that IntelliJ will eventually loose them.
