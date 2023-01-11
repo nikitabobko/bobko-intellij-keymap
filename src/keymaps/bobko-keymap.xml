@@ -204,6 +204,11 @@
     <keyboard-shortcut first-keystroke="control 0" />
   </action>
 
+  <!-- Unassign alt backspace -->
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="meta Z"/>
+    <keyboard-shortcut first-keystroke="control Z"/>
+  </action>
   <!-- Delete file -->
   <action id="Editor Delete">
     <keyboard-shortcut first-keystroke="alt back_space" />
