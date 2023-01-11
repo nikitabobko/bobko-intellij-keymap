@@ -52,9 +52,11 @@
     <keyboard-shortcut first-keystroke="alt ENTER"/>
   </action>
 
+  <!-- Unassign control alt I -->
+  <action id="AutoIndentLines"/>
   <action id="Inline">
-    <keyboard-shortcut first-keystroke="control alt N"/>
-    <keyboard-shortcut first-keystroke="control meta N"/>
+    <keyboard-shortcut first-keystroke="control alt I"/>
+    <keyboard-shortcut first-keystroke="control meta I"/>
   </action>
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="control alt V"/>
