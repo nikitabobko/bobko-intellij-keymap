@@ -260,6 +260,8 @@
     <keyboard-shortcut first-keystroke="alt b" />
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
+  <!-- Unassign "build project" ctrl F9 -->
+  <action id="CompileDirty"/>
 
   <!-- Unassign control shift f12 to break muscle memory -->
   <action id="HideAllWindows"/>
