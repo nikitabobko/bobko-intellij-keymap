@@ -238,9 +238,27 @@
     <keyboard-shortcut first-keystroke="control shift tab" />
   </action>
 
-  <!-- todo -->
+  <!-- module settings F4 -->
   <action id="EditSource">
-    <keyboard-shortcut first-keystroke="F4"/>
+    <keyboard-shortcut first-keystroke="alt E"/>
+    <keyboard-shortcut first-keystroke="meta E"/>
+  </action>
+
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="alt N" />
+    <keyboard-shortcut first-keystroke="meta N" />
+  </action>
+  <!-- Unassign F1 (aka accidential F1 presses that open browser) -->
+  <action id="ContextHelp" />
+  <!-- reload all external projects -->
+  <action id="ExternalSystem.RefreshAllProjects">
+    <keyboard-shortcut first-keystroke="control shift alt R" />
+    <keyboard-shortcut first-keystroke="control shift meta R" />
+  </action>
+  <!-- Build current module -->
+  <action id="MakeModule">
+    <keyboard-shortcut first-keystroke="alt b" />
+    <keyboard-shortcut first-keystroke="meta b" />
   </action>
 
   <!-- Unassign control shift f12 to break muscle memory -->
