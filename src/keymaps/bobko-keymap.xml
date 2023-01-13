@@ -140,6 +140,10 @@
     <keyboard-shortcut first-keystroke="meta shift C"/>
   </action>
 
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="control L"/>
+  </action>
+
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="control alt 8"/>
     <keyboard-shortcut first-keystroke="control meta 8"/>
