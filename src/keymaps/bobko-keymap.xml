@@ -279,6 +279,8 @@
   <!-- Unassign "build project" ctrl F9 -->
   <action id="CompileDirty"/>
 
+  <!-- View Breakpoints... control shift F8 -->
+
   <!-- Unassign control shift f12 to break muscle memory -->
   <action id="HideAllWindows"/>
   <!-- <action id="HideAllWindows"> -->
