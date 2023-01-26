@@ -140,6 +140,17 @@
     <keyboard-shortcut first-keystroke="meta shift C"/>
   </action>
 
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="control C"/>
+    <keyboard-shortcut first-keystroke="meta C"/>
+    <keyboard-shortcut first-keystroke="alt C"/>
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="control V"/>
+    <keyboard-shortcut first-keystroke="meta V"/>
+    <keyboard-shortcut first-keystroke="alt V"/>
+  </action>
+
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="control L"/>
   </action>
