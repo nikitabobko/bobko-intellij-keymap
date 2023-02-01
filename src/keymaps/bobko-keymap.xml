@@ -160,10 +160,6 @@
     <keyboard-shortcut first-keystroke="alt V"/>
   </action>
 
-  <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="control L"/>
-  </action>
-
   <!-- Unfortunatelly, F keys are more convenient for this :( -->
   <!-- <action id="ToggleLineBreakpoint"> -->
   <!--   <keyboard-shortcut first-keystroke="control alt 8"/> -->
