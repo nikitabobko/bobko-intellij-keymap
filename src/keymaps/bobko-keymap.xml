@@ -52,6 +52,15 @@
     <keyboard-shortcut first-keystroke="alt ENTER"/>
   </action>
 
+  <action id="Vcs.RollbackChangedLines">
+    <keyboard-shortcut first-keystroke="control alt Z"/>
+    <keyboard-shortcut first-keystroke="control meta Z"/>
+  </action>
+  <action id="ChangesView.Revert">
+    <keyboard-shortcut first-keystroke="control alt Z"/>
+    <keyboard-shortcut first-keystroke="control meta Z"/>
+  </action>
+
   <!-- Unassign control alt I -->
   <action id="AutoIndentLines"/>
   <action id="Inline">
