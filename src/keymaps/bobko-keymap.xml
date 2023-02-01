@@ -217,6 +217,14 @@
     <keyboard-shortcut first-keystroke="alt shift H"/>
     <keyboard-shortcut first-keystroke="meta shift H"/>
   </action>
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="alt shift K"/>
+    <keyboard-shortcut first-keystroke="meta shift K"/>
+  </action>
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="alt shift J"/>
+    <keyboard-shortcut first-keystroke="meta shift J"/>
+  </action>
 
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="control ADD" />
