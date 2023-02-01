@@ -141,6 +141,13 @@
     <keyboard-shortcut first-keystroke="alt H"/>
     <keyboard-shortcut first-keystroke="meta H"/>
   </action>
+
+  <!-- mnemonics: git LLLog -->
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="alt shift L"/>
+    <keyboard-shortcut first-keystroke="meta shift L"/>
+  </action>
+
   <!-- Unassign alt shift c -->
   <action id="RecentChanges" />
   <!-- copy path from repository root -->
