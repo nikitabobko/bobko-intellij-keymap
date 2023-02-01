@@ -210,12 +210,12 @@
   </action>
 
   <action id="Diff.NextChange">
-    <keyboard-shortcut first-keystroke="alt shift RIGHT"/>
-    <keyboard-shortcut first-keystroke="meta shift RIGHT"/>
+    <keyboard-shortcut first-keystroke="alt shift L"/>
+    <keyboard-shortcut first-keystroke="meta shift L"/>
   </action>
   <action id="Diff.PrevChange">
-    <keyboard-shortcut first-keystroke="alt shift LEFT"/>
-    <keyboard-shortcut first-keystroke="meta shift LEFT"/>
+    <keyboard-shortcut first-keystroke="alt shift H"/>
+    <keyboard-shortcut first-keystroke="meta shift H"/>
   </action>
 
   <action id="EditorIncreaseFontSize">
