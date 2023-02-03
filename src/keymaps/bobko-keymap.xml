@@ -248,10 +248,12 @@
   </action>
   <!-- Delete file -->
   <action id="Editor Delete">
+    <keyboard-shortcut first-keystroke="DELETE" />
     <keyboard-shortcut first-keystroke="alt back_space" />
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="$Delete">
+    <keyboard-shortcut first-keystroke="DELETE" />
     <keyboard-shortcut first-keystroke="alt back_space" />
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
