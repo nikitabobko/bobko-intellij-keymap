@@ -43,6 +43,7 @@
   </action>
 
   <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="control shift A"/>
     <keyboard-shortcut first-keystroke="alt shift A"/>
     <keyboard-shortcut first-keystroke="meta shift A"/>
   </action>
