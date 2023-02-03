@@ -300,6 +300,11 @@
     <keyboard-shortcut first-keystroke="meta shift E"/>
   </action>
 
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="alt M"/>
+    <keyboard-shortcut first-keystroke="meta M"/>
+  </action>
+
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="alt N" />
     <keyboard-shortcut first-keystroke="meta N" />
