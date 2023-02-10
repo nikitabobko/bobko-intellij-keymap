@@ -169,10 +169,18 @@
   </action>
 
   <!-- Unfortunatelly, F keys are more convenient for this :( -->
-  <!-- <action id="ToggleLineBreakpoint"> -->
-  <!--   <keyboard-shortcut first-keystroke="control alt 8"/> -->
-  <!--   <keyboard-shortcut first-keystroke="control meta 8"/> -->
-  <!-- </action> -->
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="alt B"/>
+    <keyboard-shortcut first-keystroke="meta B"/>
+  </action>
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="alt shift B"/>
+    <keyboard-shortcut first-keystroke="meta shift B"/>
+  </action>
+  <action id="EditBreakpoint">
+    <keyboard-shortcut first-keystroke="alt shift B"/>
+    <keyboard-shortcut first-keystroke="meta shift B"/>
+  </action>
   <!-- <action id="SmartStepInto"> -->
   <!--   <keyboard-shortcut first-keystroke="meta shift 7"/> -->
   <!--   <keyboard-shortcut first-keystroke="alt shift 7"/> -->
