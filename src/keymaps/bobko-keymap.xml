@@ -336,6 +336,8 @@
 
   <!-- Unassign control shift f12 to break muscle memory -->
   <action id="HideAllWindows"/>
+  <!-- Unassign control F1 to break muscle memory (I use <space>d in ideavim instead) -->
+  <action id="ShowErrorDescription"/>
   <!-- <action id="HideAllWindows"> -->
   <!--   <keyboard-shortcut first-keystroke="control alt V"/> -->
   <!-- </action> -->
