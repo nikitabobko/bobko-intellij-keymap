@@ -343,4 +343,9 @@
   <!-- double alt -->
   <!-- show history of current file -->
 
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="control BACK_SPACE"/>
+    <keyboard-shortcut first-keystroke="alt BACK_SPACE"/>
+    <keyboard-shortcut first-keystroke="meta BACK_SPACE"/>
+  </action>
 </keymap>
