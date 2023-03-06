@@ -48,6 +48,11 @@
     <keyboard-shortcut first-keystroke="meta shift A"/>
   </action>
 
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="alt shift F"/>
+    <keyboard-shortcut first-keystroke="meta shift F"/>
+  </action>
+
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="meta ENTER"/>
     <keyboard-shortcut first-keystroke="alt ENTER"/>
