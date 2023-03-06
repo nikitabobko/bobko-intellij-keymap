@@ -58,6 +58,13 @@
     <keyboard-shortcut first-keystroke="alt ENTER"/>
   </action>
 
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="alt shift J"/>
+  </action>
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="alt shift K"/>
+  </action>
+
   <action id="Vcs.RollbackChangedLines">
     <keyboard-shortcut first-keystroke="control alt Z"/>
     <keyboard-shortcut first-keystroke="control meta Z"/>
