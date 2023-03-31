@@ -9,6 +9,17 @@ cp() { /bin/cp -r "$@"; }
 cd "$(dirname "$0")"
 rm -rf build
 
+# Plugin layout:
+# bobko-keymap.zip
+# └── bobko-keymap
+#     └── lib
+#         └── bobko-keymap.jar
+#             ├── META-INF
+#             │   ├── MANIFEST.MF
+#             │   └── plugin.xml
+#             └── keymaps
+#                 └── bobko-keymap.xml
+
 build-jar() {
     mkdir build/bobko-keymap-jar
     cp src/* build/bobko-keymap-jar

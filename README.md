@@ -11,6 +11,9 @@ Features of the plugin:
    way muscle memory is preserved between macOS and Linux.
 2. Don't use F-keys, because they are hard to reach on macOS (normally F-keys control the media/system on macOS).
 
+Tips:
+1. Drag and drop zip file into IntelliJ IDEA to install plugin
+
 Plugin layout:
 ```
 bobko-keymap.zip
