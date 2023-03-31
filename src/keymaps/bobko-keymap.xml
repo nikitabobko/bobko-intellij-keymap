@@ -250,13 +250,13 @@
     <keyboard-shortcut first-keystroke="meta shift J"/>
   </action>
 
-  <action id="EditorIncreaseFontSize">
+  <action id="EditorIncreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="meta ADD" />
     <keyboard-shortcut first-keystroke="alt ADD" />
     <keyboard-shortcut first-keystroke="meta EQUALS" />
     <keyboard-shortcut first-keystroke="alt EQUALS" />
   </action>
-  <action id="EditorDecreaseFontSize">
+  <action id="EditorDecreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="meta SUBTRACT" />
     <keyboard-shortcut first-keystroke="alt SUBTRACT" />
     <keyboard-shortcut first-keystroke="meta MINUS" />
