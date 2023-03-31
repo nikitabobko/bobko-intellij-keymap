@@ -343,8 +343,8 @@
   </action>
   <!-- Build current module -->
   <action id="MakeModule">
-    <keyboard-shortcut first-keystroke="alt b" />
-    <keyboard-shortcut first-keystroke="meta b" />
+    <keyboard-shortcut first-keystroke="control alt B" />
+    <keyboard-shortcut first-keystroke="control meta B" />
   </action>
   <!-- Unassign "build project" ctrl F9 -->
   <action id="CompileDirty"/>
