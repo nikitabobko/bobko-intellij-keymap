@@ -1,7 +1,7 @@
 <idea-plugin>
   <name>Bobko Keymap</name>
   <id>xyz.bobko.keymap</id>
-  <version>1.0.0</version>
+  <version>VERSION_PLACEHOLDER</version>
   <vendor>Bobko</vendor>
   <category>Keymap</category>
   <description>Bobko keymap</description>
