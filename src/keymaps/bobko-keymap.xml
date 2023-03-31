@@ -50,6 +50,7 @@
 
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="alt shift F"/>
+    <keyboard-shortcut first-keystroke="control shift F"/>
     <keyboard-shortcut first-keystroke="meta shift F"/>
   </action>
 
