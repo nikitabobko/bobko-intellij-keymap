@@ -61,9 +61,11 @@
 
   <action id="NextOccurence">
     <keyboard-shortcut first-keystroke="alt shift J"/>
+    <keyboard-shortcut first-keystroke="meta shift J"/>
   </action>
   <action id="PreviousOccurence">
     <keyboard-shortcut first-keystroke="alt shift K"/>
+    <keyboard-shortcut first-keystroke="meta shift K"/>
   </action>
 
   <action id="Vcs.RollbackChangedLines">
