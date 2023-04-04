@@ -224,12 +224,13 @@
   </action>
   <!-- kill -->
   <action id="Stop">
-    <keyboard-shortcut first-keystroke="meta K"/>
-    <keyboard-shortcut first-keystroke="alt K"/>
+    <!-- Mnemonic kill -9 -->
+    <keyboard-shortcut first-keystroke="meta 9"/>
+    <keyboard-shortcut first-keystroke="alt 9"/>
   </action>
   <action id="StopBackgroundProcesses">
-    <keyboard-shortcut first-keystroke="meta shift K"/>
-    <keyboard-shortcut first-keystroke="alt shift K"/>
+    <keyboard-shortcut first-keystroke="meta shift 9"/>
+    <keyboard-shortcut first-keystroke="alt shift 9"/>
   </action>
 
   <action id="ShowSettings">
