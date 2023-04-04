@@ -112,6 +112,8 @@
 
   <!-- alt shift r is assigned to RerunTests by default. Drop the shortcut -->
   <action id="RerunTests"/>
+  <!-- Unassign alt shift enter -->
+  <action id="SplitChooser"/>
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="meta shift ENTER"/>
     <keyboard-shortcut first-keystroke="alt shift ENTER"/>
