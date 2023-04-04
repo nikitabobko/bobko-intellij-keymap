@@ -8,7 +8,7 @@
   <action id="ActivateStructureToolWindow"/>
   <action id="ActivateBookmarksToolWindow"/>
   <action id="ActivateProblemsViewToolWindow"/>
-  <!-- Unassign "VCS Operations" popup -->
+  <!-- Unassign alt + BACK_QUOTE "VCS Operations" popup -->
   <action id="Vcs.QuickListPopupAction"/>
   <action id="ActivateCommitToolWindow">
     <keyboard-shortcut first-keystroke="meta BACK_QUOTE"/>
@@ -50,16 +50,19 @@
     <keyboard-shortcut first-keystroke="meta shift A"/>
   </action>
 
+  <!-- Related: https://youtrack.jetbrains.com/issue/VIM-2313 -->
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="alt F"/>
+    <keyboard-shortcut first-keystroke="meta F"/>
+  </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="alt shift F"/>
     <keyboard-shortcut first-keystroke="control shift F"/>
     <keyboard-shortcut first-keystroke="meta shift F"/>
   </action>
 
-  <action id="ShowIntentionActions">
-    <keyboard-shortcut first-keystroke="meta ENTER"/>
-    <keyboard-shortcut first-keystroke="alt ENTER"/>
-  </action>
+  <!-- Unassign alt + enter. I use <Space>a in IdeaVim -->
+  <action id="ShowIntentionActions"/>
 
   <action id="NextOccurence">
     <keyboard-shortcut first-keystroke="alt shift J"/>
@@ -110,12 +113,12 @@
   <!-- alt shift r is assigned to RerunTests by default. Drop the shortcut -->
   <action id="RerunTests"/>
   <action id="ChooseRunConfiguration">
-    <keyboard-shortcut first-keystroke="meta shift R"/>
-    <keyboard-shortcut first-keystroke="alt shift R"/>
+    <keyboard-shortcut first-keystroke="meta shift ENTER"/>
+    <keyboard-shortcut first-keystroke="alt shift ENTER"/>
   </action>
   <action id="Run">
-    <keyboard-shortcut first-keystroke="meta R"/>
-    <keyboard-shortcut first-keystroke="alt R"/>
+    <keyboard-shortcut first-keystroke="meta ENTER"/>
+    <keyboard-shortcut first-keystroke="alt ENTER"/>
   </action>
 
   <action id="ChooseDebugConfiguration">
