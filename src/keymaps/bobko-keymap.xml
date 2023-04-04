@@ -8,9 +8,11 @@
   <action id="ActivateStructureToolWindow"/>
   <action id="ActivateBookmarksToolWindow"/>
   <action id="ActivateProblemsViewToolWindow"/>
+  <!-- Unassign "VCS Operations" popup -->
+  <action id="Vcs.QuickListPopupAction"/>
   <action id="ActivateCommitToolWindow">
-    <keyboard-shortcut first-keystroke="meta 0"/>
-    <keyboard-shortcut first-keystroke="alt 0"/>
+    <keyboard-shortcut first-keystroke="meta BACK_QUOTE"/>
+    <keyboard-shortcut first-keystroke="alt BACK_QUOTE"/>
   </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="meta 1"/>
@@ -150,12 +152,12 @@
     <keyboard-shortcut first-keystroke="control meta O"/>
   </action>
   <action id="EditorSelectWord">
-    <keyboard-shortcut first-keystroke="alt L"/>
-    <keyboard-shortcut first-keystroke="meta L"/>
+    <keyboard-shortcut first-keystroke="alt K"/>
+    <keyboard-shortcut first-keystroke="meta K"/>
   </action>
   <action id="EditorUnSelectWord">
-    <keyboard-shortcut first-keystroke="alt H"/>
-    <keyboard-shortcut first-keystroke="meta H"/>
+    <keyboard-shortcut first-keystroke="alt J"/>
+    <keyboard-shortcut first-keystroke="meta J"/>
   </action>
 
   <!-- mnemonics: git LLLog -->
