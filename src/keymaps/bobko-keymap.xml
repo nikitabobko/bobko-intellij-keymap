@@ -341,6 +341,12 @@
     <keyboard-shortcut first-keystroke="meta M"/>
   </action>
 
+  <!-- Unassign alt shift N -->
+  <action id="tasks.goto"/>
+  <action id="WelcomeScreen.CreateNewProject">
+    <keyboard-shortcut first-keystroke="alt shift N" />
+    <keyboard-shortcut first-keystroke="meta shift N" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="alt N" />
     <keyboard-shortcut first-keystroke="meta N" />
