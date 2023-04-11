@@ -53,6 +53,7 @@
   <!-- Related: https://youtrack.jetbrains.com/issue/VIM-2313 -->
   <action id="Find">
     <keyboard-shortcut first-keystroke="alt F"/>
+    <keyboard-shortcut first-keystroke="control F"/>
     <keyboard-shortcut first-keystroke="meta F"/>
   </action>
   <action id="FindInPath">
