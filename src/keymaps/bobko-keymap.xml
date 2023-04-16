@@ -136,6 +136,10 @@
     <keyboard-shortcut first-keystroke="control alt H"/>
     <keyboard-shortcut first-keystroke="control meta H"/>
   </action>
+  <action id="CallHierarchy">
+    <keyboard-shortcut first-keystroke="control alt H"/>
+    <keyboard-shortcut first-keystroke="control meta H"/>
+  </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="alt U"/>
     <keyboard-shortcut first-keystroke="meta U"/>
