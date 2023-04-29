@@ -5,6 +5,8 @@
   <vendor>Bobko</vendor>
   <category>Keymap</category>
   <description>Bobko keymap</description>
+  <!-- This lines makes plugin compatible with different JB IDEs (not only IJ) -->
+  <depends>com.intellij.modules.lang</depends>
   <extensions defaultExtensionNs="com.intellij">
     <bundledKeymap file="bobko-keymap.xml"/>
   </extensions>
