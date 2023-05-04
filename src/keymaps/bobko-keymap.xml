@@ -108,6 +108,9 @@
     <keyboard-shortcut first-keystroke="control P"/>
   </action>
 
+  <!-- For some reason ctrl + L invokes GotoFile. Unassign this hotkey -->
+  <action id="GotoFile"/>
+
   <!-- alt shift r is assigned to RerunTests by default. Drop the shortcut -->
   <action id="RerunTests"/>
   <!-- Unassign alt shift enter -->
