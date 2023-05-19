@@ -25,7 +25,7 @@ build-jar() {
     cp src/* build/bobko-keymap-jar
     sed -i "s/VERSION_PLACEHOLDER/$(date +"%Y-%m-%d_%H:%M:%S%z")/" build/bobko-keymap-jar/META-INF/plugin.xml
     pushd build/bobko-keymap-jar
-        jar -c --verbose --file=bobko-keymap.jar *
+        jar cf bobko-keymap.jar *
     popd
 }
 
