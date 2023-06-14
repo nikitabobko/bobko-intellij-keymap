@@ -54,12 +54,14 @@
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="meta button1"/>
     <mouse-shortcut keystroke="alt button1"/>
+    <mouse-shortcut keystroke="control button1"/>
   </action>
 
   <!-- Keyboard shortcut is handled by IdeaVim -->
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="alt shift button1"/>
     <mouse-shortcut keystroke="meta shift button1"/>
+    <mouse-shortcut keystroke="control shift button1"/>
   </action>
 
   <!-- Related: https://youtrack.jetbrains.com/issue/VIM-2313 -->
