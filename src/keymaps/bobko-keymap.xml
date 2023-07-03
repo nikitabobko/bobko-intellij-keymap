@@ -178,6 +178,8 @@
     <keyboard-shortcut first-keystroke="alt K"/>
     <keyboard-shortcut first-keystroke="meta K"/>
   </action>
+  <!-- Unassign alt J -->
+  <action id="SelectNextOccurrence" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="alt J"/>
     <keyboard-shortcut first-keystroke="meta J"/>
