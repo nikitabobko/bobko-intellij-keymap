@@ -24,7 +24,13 @@ rm -rf build
 build-jar() {
     mkdir build/bobko-keymap-jar
     cp src/* build/bobko-keymap-jar
-    sed -i "s/VERSION_PLACEHOLDER/$(date +"%Y-%m-%d_%H:%M:%S%z")-$(git rev-parse HEAD)/" build/bobko-keymap-jar/META-INF/plugin.xml
+    if [ ! -z "$(git status --porcelain)" ]; then
+        echo "!!! WARNING: YOU'RE BUILDING NOT COMMITTED VERSION"
+        hash="SNAPSHOT"
+    else
+        hash="$(git rev-parse HEAD)"
+    fi
+    sed -i "s/VERSION_PLACEHOLDER/$(date +"%Y-%m-%d_%H:%M:%S%z")-$hash/" build/bobko-keymap-jar/META-INF/plugin.xml
     pushd build/bobko-keymap-jar
         jar cf bobko-keymap.jar *
     popd
