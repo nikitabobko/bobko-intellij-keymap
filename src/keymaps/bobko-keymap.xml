@@ -388,8 +388,11 @@
 
   <!-- View Breakpoints... control shift F8 -->
 
-  <!-- Unassign control shift f12 to break muscle memory -->
-  <action id="HideAllWindows"/>
+  <!-- Unassign shift+esc to remap it later -->
+  <action id="HideActiveWindow"/>
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift ESCAPE"/>
+  </action>
   <!-- Unassign control F1 to break muscle memory (I use <space>d in ideavim instead) -->
   <action id="ShowErrorDescription"/>
   <!-- <action id="HideAllWindows"> -->
