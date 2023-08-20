@@ -1,6 +1,121 @@
 <keymap version="1" name="bobko-keymap" disable-mnemonics="false">
   <!-- meta is command on macOS -->
 
+  <!-- Basic bindings copied from \$default.xml. Minor modifications -->
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="DOWN"/>
+    <keyboard-shortcut first-keystroke="control N"/>
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="UP"/>
+    <keyboard-shortcut first-keystroke="control P"/>
+  </action>
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="LEFT"/>
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="RIGHT"/>
+  </action>
+  <action id="EditorEnter">
+    <keyboard-shortcut first-keystroke="ENTER"/>
+  </action>
+  <action id="EditorChooseLookupItem">
+    <keyboard-shortcut first-keystroke="ENTER"/>
+  </action>
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="TAB"/>
+    <keyboard-shortcut first-keystroke="ENTER"/>
+  </action>
+  <action id="Console.Execute">
+    <keyboard-shortcut first-keystroke="ENTER"/>
+  </action>
+  <action id="DirDiffMenu.SynchronizeDiff">
+    <keyboard-shortcut first-keystroke="ENTER"/>
+  </action>
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="ESCAPE"/>
+  </action>
+  <action id="FocusEditor">
+    <keyboard-shortcut first-keystroke="ESCAPE"/>
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="F7"/>
+  </action>
+  <action id="EditorChooseLookupItemReplace">
+    <keyboard-shortcut first-keystroke="TAB"/>
+  </action>
+  <action id="NextParameter">
+    <keyboard-shortcut first-keystroke="TAB"/>
+  </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="BACK_SPACE"/>
+    <keyboard-shortcut first-keystroke="shift BACK_SPACE"/>
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="F9"/>
+  </action>
+  <action id="EditorTab">
+    <keyboard-shortcut first-keystroke="TAB"/>
+  </action>
+  <action id="ExpandLiveTemplateByTab">
+    <keyboard-shortcut first-keystroke="TAB"/>
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="F8"/>
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="CONTEXT_MENU"/>
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="END"/>
+  </action>
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="TAB"/>
+    <keyboard-shortcut first-keystroke="ENTER"/>
+  </action>
+  <action id="Console.Execute">
+    <keyboard-shortcut first-keystroke="ENTER"/>
+  </action>
+  <action id="Console.Execute.Multiline">
+    <keyboard-shortcut first-keystroke="control ENTER"/>
+  </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="Shift F6"/>
+  </action>
+  <action id="Git.Rename.Local.Branch">
+    <keyboard-shortcut first-keystroke="Shift F6"/>
+  </action>
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="Shift F6"/>
+  </action>
+  <action id="BraceOrQuoteOut">
+    <keyboard-shortcut first-keystroke="TAB"/>
+  </action>
+  <action id="SearchEverywhere.NextTab">
+    <keyboard-shortcut first-keystroke="TAB"/>
+  </action>
+  <action id="SearchEverywhere.PrevTab">
+    <keyboard-shortcut first-keystroke="shift TAB"/>
+  </action>
+  <action id="SearchEverywhere.CompleteCommand">
+    <keyboard-shortcut first-keystroke="TAB"/>
+  </action>
+  <action id="SearchEverywhere.SelectItem">
+    <keyboard-shortcut first-keystroke="Enter"/>
+  </action>
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="control DOWN"/>
+    <keyboard-shortcut first-keystroke="meta DOWN"/>
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="PAGE_UP"/>
+    <keyboard-shortcut first-keystroke="control UP"/>
+  </action>
+  <action id="XDebugger.SetValue">
+    <!-- Default was F2. But F2 is occupied on my system for volume -->
+    <keyboard-shortcut first-keystroke="shift F6"/>
+  </action>
+
   <action id="ActivateUnitTestsToolWindow"/>
   <action id="ActivateNuGetToolWindow"/>
   <action id="ActivateServicesToolWindow"/>
@@ -37,6 +152,23 @@
   <action id="ActivateBuildToolWindow">
     <keyboard-shortcut first-keystroke="meta 6"/>
     <keyboard-shortcut first-keystroke="alt 6"/>
+  </action>
+
+  <action id="ResizeToolWindowLeft">
+    <keyboard-shortcut first-keystroke="control alt shift LEFT"/>
+    <keyboard-shortcut first-keystroke="control meta shift LEFT"/>
+  </action>
+  <action id="ResizeToolWindowRight">
+    <keyboard-shortcut first-keystroke="control alt shift RIGHT"/>
+    <keyboard-shortcut first-keystroke="control meta shift RIGHT"/>
+  </action>
+  <action id="ResizeToolWindowUp">
+    <keyboard-shortcut first-keystroke="control alt shift UP"/>
+    <keyboard-shortcut first-keystroke="control meta shift UP"/>
+  </action>
+  <action id="ResizeToolWindowDown">
+    <keyboard-shortcut first-keystroke="control alt shift DOWN"/>
+    <keyboard-shortcut first-keystroke="control meta shift DOWN"/>
   </action>
 
   <action id="SelectInProjectView">
@@ -104,15 +236,6 @@
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="control alt B"/>
     <keyboard-shortcut first-keystroke="control meta B"/>
-  </action>
-
-  <action id="EditorDown">
-    <keyboard-shortcut first-keystroke="DOWN"/>
-    <keyboard-shortcut first-keystroke="control N"/>
-  </action>
-  <action id="EditorUp">
-    <keyboard-shortcut first-keystroke="UP"/>
-    <keyboard-shortcut first-keystroke="control P"/>
   </action>
 
   <!-- alt shift r is assigned to RerunTests by default. Drop the shortcut -->
