@@ -47,6 +47,9 @@
   <action id="NextParameter">
     <keyboard-shortcut first-keystroke="TAB"/>
   </action>
+  <action id="PrevParameter">
+    <keyboard-shortcut first-keystroke="shift TAB"/>
+  </action>
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="BACK_SPACE"/>
     <keyboard-shortcut first-keystroke="shift BACK_SPACE"/>
@@ -72,6 +75,9 @@
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="TAB"/>
     <keyboard-shortcut first-keystroke="ENTER"/>
+  </action>
+  <action id="PreviousTemplateVariable">
+    <keyboard-shortcut first-keystroke="shift TAB"/>
   </action>
   <action id="Console.Execute">
     <keyboard-shortcut first-keystroke="ENTER"/>
@@ -181,6 +187,11 @@
     <keyboard-shortcut first-keystroke="alt shift A"/>
     <keyboard-shortcut first-keystroke="meta shift A"/>
   </action>
+
+  <!-- todo invent binding -->
+  <!-- <action id="Diff.FocusOppositePane"> -->
+  <!--   <keyboard-shortcut first-keystroke="control 6"/> -->
+  <!-- </action> -->
 
   <!-- Keyboard shortcut is handled by IdeaVim -->
   <action id="GotoDeclaration">
