@@ -183,6 +183,10 @@
     <keyboard-shortcut first-keystroke="alt shift P"/>
   </action>
 
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="control F6"/>
+  </action>
+
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="alt shift 1"/>
     <keyboard-shortcut first-keystroke="meta shift 1"/>
