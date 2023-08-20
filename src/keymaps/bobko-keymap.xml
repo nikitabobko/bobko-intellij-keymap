@@ -1,4 +1,4 @@
-<keymap version="1" name="bobko-keymap" disable-mnemonics="false" parent="$default">
+<keymap version="1" name="bobko-keymap" disable-mnemonics="false">
   <!-- meta is command on macOS -->
 
   <action id="ActivateUnitTestsToolWindow"/>
