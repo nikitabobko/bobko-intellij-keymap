@@ -178,7 +178,6 @@
   </action>
 
   <action id="ExpressionTypeInfo">
-    <keyboard-shortcut first-keystroke="control shift P"/>
     <keyboard-shortcut first-keystroke="meta shift P"/>
     <keyboard-shortcut first-keystroke="alt shift P"/>
   </action>
