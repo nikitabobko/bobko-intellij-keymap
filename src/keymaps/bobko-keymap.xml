@@ -177,6 +177,12 @@
     <keyboard-shortcut first-keystroke="meta shift J"/>
   </action>
 
+  <action id="ExpressionTypeInfo">
+    <keyboard-shortcut first-keystroke="control shift P"/>
+    <keyboard-shortcut first-keystroke="meta shift P"/>
+    <keyboard-shortcut first-keystroke="alt shift P"/>
+  </action>
+
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="alt shift 1"/>
     <keyboard-shortcut first-keystroke="meta shift 1"/>
