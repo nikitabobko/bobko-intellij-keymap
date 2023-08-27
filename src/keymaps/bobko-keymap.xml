@@ -120,6 +120,7 @@
   <action id="XDebugger.SetValue">
     <!-- Default was F2. But F2 is occupied on my system for volume -->
     <keyboard-shortcut first-keystroke="shift F6"/>
+    <keyboard-shortcut first-keystroke="ENTER"/>
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift F6"/>
