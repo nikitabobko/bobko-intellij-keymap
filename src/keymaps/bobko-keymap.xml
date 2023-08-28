@@ -243,8 +243,6 @@
     <keyboard-shortcut first-keystroke="control meta Z"/>
   </action>
 
-  <!-- Unassign control alt I -->
-  <action id="AutoIndentLines"/>
   <action id="Inline">
     <keyboard-shortcut first-keystroke="control alt I"/>
     <keyboard-shortcut first-keystroke="control meta I"/>
@@ -264,14 +262,10 @@
 
   <!-- alt shift r is assigned to RerunTests by default. Drop the shortcut -->
   <action id="RerunTests"/>
-  <!-- Unassign alt shift enter -->
-  <action id="SplitChooser"/>
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="meta shift R"/>
     <keyboard-shortcut first-keystroke="alt shift R"/>
   </action>
-  <!-- Unassign alt + enter. I use <Space>a in IdeaVim -->
-  <action id="ShowIntentionActions"/>
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta R"/>
     <keyboard-shortcut first-keystroke="alt R"/>
@@ -308,8 +302,6 @@
   </action>
   <!-- I need to break my ctrl+f1 muscle memory -->
   <action id="SelectIn"/>
-  <!-- Unassign default control n -->
-  <action id="GotoClass"/>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="control alt O"/>
     <keyboard-shortcut first-keystroke="control meta O"/>
@@ -318,8 +310,6 @@
     <keyboard-shortcut first-keystroke="alt K"/>
     <keyboard-shortcut first-keystroke="meta K"/>
   </action>
-  <!-- Unassign alt J -->
-  <action id="SelectNextOccurrence" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="alt J"/>
     <keyboard-shortcut first-keystroke="meta J"/>
@@ -331,8 +321,6 @@
     <keyboard-shortcut first-keystroke="meta shift L"/>
   </action>
 
-  <!-- Unassign alt shift c -->
-  <action id="RecentChanges" />
   <!-- copy path from repository root -->
   <action id="CopyPathFromRepositoryRootProvider">
     <keyboard-shortcut first-keystroke="alt shift C"/>
@@ -380,10 +368,6 @@
   <!--   <keyboard-shortcut first-keystroke="alt 8"/> -->
   <!-- </action> -->
 
-  <!-- Unassign alt shift button1 -->
-  <action id="EditorAddOrRemoveCaret"/>
-  <!-- Unassign alt button1 -->
-  <action id="EditorCreateRectangularSelectionOnMouseDrag"/>
 
   <action id="QuickEvaluateExpression">
     <mouse-shortcut keystroke="alt shift button1"/>
@@ -443,7 +427,6 @@
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
 
-  <!-- Unassign alt backspace -->
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="meta Z"/>
     <keyboard-shortcut first-keystroke="control Z"/>
@@ -482,8 +465,6 @@
     <keyboard-shortcut first-keystroke="control I"/>
   </action>
 
-  <!-- Unassign control tab -->
-  <action id="Switcher" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="control tab" />
   </action>
@@ -506,8 +487,6 @@
     <keyboard-shortcut first-keystroke="meta M"/>
   </action>
 
-  <!-- Unassign alt shift N -->
-  <action id="tasks.goto"/>
   <action id="WelcomeScreen.CreateNewProject">
     <keyboard-shortcut first-keystroke="alt shift N" />
     <keyboard-shortcut first-keystroke="meta shift N" />
@@ -516,8 +495,6 @@
     <keyboard-shortcut first-keystroke="alt N" />
     <keyboard-shortcut first-keystroke="meta N" />
   </action>
-  <!-- Unassign F1 (aka accidential F1 presses that open browser) -->
-  <action id="ContextHelp" />
   <!-- reload all external projects -->
   <action id="ExternalSystem.RefreshAllProjects">
     <keyboard-shortcut first-keystroke="control shift alt R" />
@@ -528,21 +505,12 @@
     <keyboard-shortcut first-keystroke="control alt shift B" />
     <keyboard-shortcut first-keystroke="control meta shift B" />
   </action>
-  <!-- Unassign "build project" ctrl F9 -->
-  <action id="CompileDirty"/>
 
   <!-- View Breakpoints... control shift F8 -->
 
-  <!-- Unassign shift+esc to remap it later -->
-  <action id="HideActiveWindow"/>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift ESCAPE"/>
   </action>
-  <!-- Unassign control F1 to break muscle memory (I use <space>d in ideavim instead) -->
-  <action id="ShowErrorDescription"/>
-  <!-- <action id="HideAllWindows"> -->
-  <!--   <keyboard-shortcut first-keystroke="control alt V"/> -->
-  <!-- </action> -->
 
   <!-- double alt -->
   <!-- show history of current file -->
