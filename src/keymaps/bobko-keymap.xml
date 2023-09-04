@@ -195,25 +195,26 @@
   </action>
 
   <action id="ResizeToolWindowLeft">
-    <keyboard-shortcut first-keystroke="alt shift H"/>
-    <keyboard-shortcut first-keystroke="meta shift H"/>
+    <keyboard-shortcut first-keystroke="alt shift COMMA"/>
+    <keyboard-shortcut first-keystroke="meta shift COMMA"/>
   </action>
   <action id="ResizeToolWindowRight">
-    <keyboard-shortcut first-keystroke="alt shift L"/>
-    <keyboard-shortcut first-keystroke="meta shift L"/>
+    <keyboard-shortcut first-keystroke="alt shift PERIOD"/>
+    <keyboard-shortcut first-keystroke="meta shift PERIOD"/>
   </action>
   <action id="ResizeToolWindowUp">
-    <keyboard-shortcut first-keystroke="alt shift K"/>
-    <keyboard-shortcut first-keystroke="meta shift K"/>
+    <keyboard-shortcut first-keystroke="alt shift PERIOD"/>
+    <keyboard-shortcut first-keystroke="meta shift PERIOD"/>
   </action>
   <action id="ResizeToolWindowDown">
-    <keyboard-shortcut first-keystroke="alt shift J"/>
-    <keyboard-shortcut first-keystroke="meta shift J"/>
+    <keyboard-shortcut first-keystroke="alt shift COMMA"/>
+    <keyboard-shortcut first-keystroke="meta shift COMMA"/>
   </action>
 
   <action id="ExpressionTypeInfo">
     <keyboard-shortcut first-keystroke="meta shift P"/>
     <keyboard-shortcut first-keystroke="alt shift P"/>
+    <keyboard-shortcut first-keystroke="control shift P"/>
   </action>
 
   <action id="ChangeSignature">
@@ -452,15 +453,11 @@
     <keyboard-shortcut first-keystroke="meta MINUS" />
     <keyboard-shortcut first-keystroke="alt MINUS" />
   </action>
-  <action id="EditorResetFontSize">
-    <keyboard-shortcut first-keystroke="alt 0" />
-    <keyboard-shortcut first-keystroke="meta 0" />
-  </action>
+  <!-- <action id="EditorResetFontSize"> -->
+  <!--   <keyboard-shortcut first-keystroke="alt 0" /> -->
+  <!--   <keyboard-shortcut first-keystroke="meta 0" /> -->
+  <!-- </action> -->
 
-  <action id="$Undo">
-    <keyboard-shortcut first-keystroke="meta Z"/>
-    <keyboard-shortcut first-keystroke="control Z"/>
-  </action>
   <!-- Delete file -->
   <action id="Editor Delete">
     <keyboard-shortcut first-keystroke="DELETE" />
