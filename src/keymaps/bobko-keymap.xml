@@ -155,6 +155,10 @@
     <keyboard-shortcut first-keystroke="meta V"/>
     <keyboard-shortcut first-keystroke="alt V"/>
   </action>
+  <action id="CopyReference">
+    <keyboard-shortcut first-keystroke="control alt shift C"/>
+    <keyboard-shortcut first-keystroke="control meta shift C"/>
+  </action>
 
   <action id="ActivateUnitTestsToolWindow"/>
   <action id="ActivateNuGetToolWindow"/>
