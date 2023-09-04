@@ -214,6 +214,10 @@
     <keyboard-shortcut first-keystroke="alt shift COMMA"/>
     <keyboard-shortcut first-keystroke="meta shift COMMA"/>
   </action>
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="meta P"/>
+    <keyboard-shortcut first-keystroke="alt P"/>
+  </action>
 
   <action id="ExpressionTypeInfo">
     <keyboard-shortcut first-keystroke="meta shift P"/>
