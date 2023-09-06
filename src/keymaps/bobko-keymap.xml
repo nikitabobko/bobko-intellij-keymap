@@ -169,6 +169,15 @@
     <keyboard-shortcut first-keystroke="alt RIGHT"/>
     <keyboard-shortcut first-keystroke="meta RIGHT"/>
   </action>
+  <action id="CompareTwoFiles">
+    <keyboard-shortcut first-keystroke="control D"/>
+  </action>
+  <action id="Diff.ShowDiff">
+    <keyboard-shortcut first-keystroke="control D"/>
+  </action>
+  <action id="SendEOF">
+    <keyboard-shortcut first-keystroke="control D"/>
+  </action>
 
   <action id="ActivateUnitTestsToolWindow"/>
   <action id="ActivateNuGetToolWindow"/>
