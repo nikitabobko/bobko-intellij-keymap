@@ -161,9 +161,13 @@
   </action>
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="control LEFT"/>
+    <keyboard-shortcut first-keystroke="alt LEFT"/>
+    <keyboard-shortcut first-keystroke="meta LEFT"/>
   </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="control RIGHT"/>
+    <keyboard-shortcut first-keystroke="alt RIGHT"/>
+    <keyboard-shortcut first-keystroke="meta RIGHT"/>
   </action>
 
   <action id="ActivateUnitTestsToolWindow"/>
