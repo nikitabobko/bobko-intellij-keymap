@@ -159,6 +159,12 @@
     <keyboard-shortcut first-keystroke="control alt shift C"/>
     <keyboard-shortcut first-keystroke="control meta shift C"/>
   </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="control LEFT"/>
+  </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="control RIGHT"/>
+  </action>
 
   <action id="ActivateUnitTestsToolWindow"/>
   <action id="ActivateNuGetToolWindow"/>
