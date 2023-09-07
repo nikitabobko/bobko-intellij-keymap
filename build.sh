@@ -30,7 +30,7 @@ build-jar() {
     else
         hash="$(git rev-parse HEAD)"
     fi
-    sed -i "s/VERSION_PLACEHOLDER/$(date +"%Y-%m-%d_%H:%M:%S")_$hash/" build/bobko-keymap-jar/META-INF/plugin.xml
+    sed -i "s/VERSION_PLACEHOLDER/$(date +"%Y-%m-%d.%H:%M:%S").$hash/" build/bobko-keymap-jar/META-INF/plugin.xml
     pushd build/bobko-keymap-jar
         jar cf bobko-keymap.jar *
     popd
