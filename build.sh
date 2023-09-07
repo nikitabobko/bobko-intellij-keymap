@@ -5,9 +5,6 @@ set -o pipefail # Any command failed in the pipe fails the whole pipe
 # set -x # Print shell commands as they are executed (or you can try -v which is less verbose)
 
 cd $(dirname "$0")
-mkdir() { /bin/mkdir -p "$@"; }
-cp() { /bin/cp -r "$@"; }
-cd "$(dirname "$0")"
 rm -rf build
 
 # Plugin layout:
@@ -22,15 +19,14 @@ rm -rf build
 #                 └── bobko-keymap.xml
 
 build-jar() {
-    mkdir build/bobko-keymap-jar
-    cp src/* build/bobko-keymap-jar
+    mkdir -p build/bobko-keymap-jar
+    cp -r src/* build/bobko-keymap-jar
+    date_snapshot=$(date +"%Y-%m-%d.%H:%M:%S")
     if [ ! -z "$(git status --porcelain)" ]; then
-        echo "!!! WARNING: YOU'RE BUILDING NOT COMMITTED VERSION"
-        hash="SNAPSHOT"
-    else
-        hash="$(git rev-parse HEAD)"
+        git add --all
+        git commit -m "SNAPSHOT $date_snapshot"
     fi
-    sed -i "s/VERSION_PLACEHOLDER/$(date +"%Y-%m-%d.%H:%M:%S").$hash/" build/bobko-keymap-jar/META-INF/plugin.xml
+    sed -i "s/VERSION_PLACEHOLDER/$date_snapshot.$(git rev-parse HEAD)/" build/bobko-keymap-jar/META-INF/plugin.xml
     pushd build/bobko-keymap-jar
         jar cf bobko-keymap.jar *
     popd
