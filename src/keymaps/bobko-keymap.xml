@@ -291,6 +291,11 @@
     <keyboard-shortcut first-keystroke="control shift F"/>
     <keyboard-shortcut first-keystroke="meta shift F"/>
   </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="alt shift G"/>
+    <keyboard-shortcut first-keystroke="control shift G"/>
+    <keyboard-shortcut first-keystroke="meta shift G"/>
+  </action>
 
   <action id="NextOccurence">
     <keyboard-shortcut first-keystroke="alt shift J"/>
