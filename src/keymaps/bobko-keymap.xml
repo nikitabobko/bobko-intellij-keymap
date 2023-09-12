@@ -39,6 +39,9 @@
     <keyboard-shortcut first-keystroke="ESCAPE"/>
   </action>
   <action id="StepInto">
+    <keyboard-shortcut first-keystroke="shift F7"/>
+  </action>
+  <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="F7"/>
   </action>
   <action id="EditorChooseLookupItemReplace">
