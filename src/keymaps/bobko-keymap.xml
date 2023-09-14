@@ -301,6 +301,11 @@
     <keyboard-shortcut first-keystroke="control F"/>
     <keyboard-shortcut first-keystroke="meta F"/>
   </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="control G"/>
+    <keyboard-shortcut first-keystroke="alt G"/>
+    <keyboard-shortcut first-keystroke="meta G"/>
+  </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="alt shift F"/>
     <keyboard-shortcut first-keystroke="control shift F"/>
