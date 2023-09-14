@@ -5,7 +5,7 @@ set -o pipefail # Any command failed in the pipe fails the whole pipe
 # set -x # Print shell commands as they are executed (or you can try -v which is less verbose)
 
 cd $(dirname "$0")
-rm -rf build
+rm -rf .build
 
 # Plugin layout:
 # bobko-keymap.zip
@@ -19,23 +19,23 @@ rm -rf build
 #                 └── bobko-keymap.xml
 
 build-jar() {
-    mkdir -p build/bobko-keymap-jar
-    cp -r src/* build/bobko-keymap-jar
+    mkdir -p .build/bobko-keymap-jar
+    cp -r src/* .build/bobko-keymap-jar
     date_snapshot=$(date +"%Y-%m-%d.%H:%M:%S")
     if [ ! -z "$(git status --porcelain)" ]; then
         git add --all
         git commit -m "SNAPSHOT $date_snapshot"
     fi
-    sed -i "s/VERSION_PLACEHOLDER/$date_snapshot.$(git rev-parse HEAD)/" build/bobko-keymap-jar/META-INF/plugin.xml
-    pushd build/bobko-keymap-jar
+    sed -i "s/VERSION_PLACEHOLDER/$date_snapshot.$(git rev-parse HEAD)/" .build/bobko-keymap-jar/META-INF/plugin.xml
+    pushd .build/bobko-keymap-jar
         jar cf bobko-keymap.jar *
     popd
 }
 
 build-plugin() {
-    install -D -m644 build/bobko-keymap-jar/bobko-keymap.jar \
-                     build/bobko-keymap/lib/bobko-keymap.jar
-    pushd build
+    install -D -m644 .build/bobko-keymap-jar/bobko-keymap.jar \
+                     .build/bobko-keymap/lib/bobko-keymap.jar
+    pushd .build
         zip -r --verbose bobko-keymap.zip bobko-keymap
     popd
 }
