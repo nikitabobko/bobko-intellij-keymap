@@ -181,12 +181,6 @@
   <action id="SendEOF">
     <keyboard-shortcut first-keystroke="control D"/>
   </action>
-  <action id="UsageFiltering.ReadAccess">
-    <keyboard-shortcut first-keystroke="control R"/>
-  </action>
-  <action id="UsageFiltering.WriteAccess">
-    <keyboard-shortcut first-keystroke="control W"/>
-  </action>
   <action id="UsageFiltering.Imports">
     <keyboard-shortcut first-keystroke="control I"/>
   </action>
@@ -239,6 +233,14 @@
   <action id="ActivateBuildToolWindow">
     <keyboard-shortcut first-keystroke="meta 6"/>
     <keyboard-shortcut first-keystroke="alt 6"/>
+  </action>
+
+  <!-- ReadAccess and WriteAccess are swapped because it's more natural -->
+  <action id="UsageFiltering.ReadAccess">
+    <keyboard-shortcut first-keystroke="control W"/>
+  </action>
+  <action id="UsageFiltering.WriteAccess">
+    <keyboard-shortcut first-keystroke="control R"/>
   </action>
 
   <action id="ResizeToolWindowLeft">
