@@ -38,12 +38,6 @@
   <action id="FocusEditor">
     <keyboard-shortcut first-keystroke="ESCAPE"/>
   </action>
-  <action id="StepInto">
-    <keyboard-shortcut first-keystroke="shift F7"/>
-  </action>
-  <action id="SmartStepInto">
-    <keyboard-shortcut first-keystroke="F7"/>
-  </action>
   <action id="EditorChooseLookupItemReplace">
     <keyboard-shortcut first-keystroke="TAB"/>
   </action>
@@ -57,17 +51,11 @@
     <keyboard-shortcut first-keystroke="BACK_SPACE"/>
     <keyboard-shortcut first-keystroke="shift BACK_SPACE"/>
   </action>
-  <action id="Resume">
-    <keyboard-shortcut first-keystroke="F9"/>
-  </action>
   <action id="EditorTab">
     <keyboard-shortcut first-keystroke="TAB"/>
   </action>
   <action id="ExpandLiveTemplateByTab">
     <keyboard-shortcut first-keystroke="TAB"/>
-  </action>
-  <action id="StepOver">
-    <keyboard-shortcut first-keystroke="F8"/>
   </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="CONTEXT_MENU"/>
@@ -197,6 +185,23 @@
     <keyboard-shortcut first-keystroke="control shift LEFT"/>
   </action>
 
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="alt shift H"/>
+    <keyboard-shortcut first-keystroke="meta shift H"/>
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="alt shift J"/>
+    <keyboard-shortcut first-keystroke="meta shift J"/>
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="alt shift K"/>
+    <keyboard-shortcut first-keystroke="meta shift K"/>
+  </action>
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="alt shift L"/>
+    <keyboard-shortcut first-keystroke="meta shift L"/>
+  </action>
+
   <action id="ActivateUnitTestsToolWindow"/>
   <action id="ActivateNuGetToolWindow"/>
   <action id="ActivateServicesToolWindow"/>
@@ -319,14 +324,14 @@
     <keyboard-shortcut first-keystroke="meta shift G"/>
   </action>
 
-  <action id="NextOccurence">
-    <keyboard-shortcut first-keystroke="alt shift J"/>
-    <keyboard-shortcut first-keystroke="meta shift J"/>
-  </action>
-  <action id="PreviousOccurence">
-    <keyboard-shortcut first-keystroke="alt shift K"/>
-    <keyboard-shortcut first-keystroke="meta shift K"/>
-  </action>
+  <!-- <action id="NextOccurence"> -->
+  <!--   <keyboard-shortcut first-keystroke="alt shift J"/> -->
+  <!--   <keyboard-shortcut first-keystroke="meta shift J"/> -->
+  <!-- </action> -->
+  <!-- <action id="PreviousOccurence"> -->
+  <!--   <keyboard-shortcut first-keystroke="alt shift K"/> -->
+  <!--   <keyboard-shortcut first-keystroke="meta shift K"/> -->
+  <!-- </action> -->
 
   <action id="Vcs.RollbackChangedLines">
     <keyboard-shortcut first-keystroke="control alt Z"/>
@@ -445,22 +450,6 @@
     <keyboard-shortcut first-keystroke="alt shift B"/>
     <keyboard-shortcut first-keystroke="meta shift B"/>
   </action>
-  <!-- <action id="SmartStepInto"> -->
-  <!--   <keyboard-shortcut first-keystroke="meta shift 7"/> -->
-  <!--   <keyboard-shortcut first-keystroke="alt shift 7"/> -->
-  <!-- </action> -->
-  <!-- <action id="StepInto"> -->
-  <!--   <keyboard-shortcut first-keystroke="meta 7"/> -->
-  <!--   <keyboard-shortcut first-keystroke="alt 7"/> -->
-  <!-- </action> -->
-  <!-- <action id="Resume"> -->
-  <!--   <keyboard-shortcut first-keystroke="meta 9"/> -->
-  <!--   <keyboard-shortcut first-keystroke="alt 9"/> -->
-  <!-- </action> -->
-  <!-- <action id="StepOver"> -->
-  <!--   <keyboard-shortcut first-keystroke="meta 8"/> -->
-  <!--   <keyboard-shortcut first-keystroke="alt 8"/> -->
-  <!-- </action> -->
 
 
   <action id="QuickEvaluateExpression">
@@ -495,14 +484,15 @@
     <keyboard-shortcut first-keystroke="alt shift H"/>
     <keyboard-shortcut first-keystroke="meta shift H"/>
   </action>
-  <action id="PreviousDiff">
-    <keyboard-shortcut first-keystroke="alt shift K"/>
-    <keyboard-shortcut first-keystroke="meta shift K"/>
-  </action>
-  <action id="NextDiff">
-    <keyboard-shortcut first-keystroke="alt shift J"/>
-    <keyboard-shortcut first-keystroke="meta shift J"/>
-  </action>
+
+  <!-- <action id="PreviousDiff"> -->
+  <!--   <keyboard-shortcut first-keystroke="alt shift K"/> -->
+  <!--   <keyboard-shortcut first-keystroke="meta shift K"/> -->
+  <!-- </action> -->
+  <!-- <action id="NextDiff"> -->
+  <!--   <keyboard-shortcut first-keystroke="alt shift J"/> -->
+  <!--   <keyboard-shortcut first-keystroke="meta shift J"/> -->
+  <!-- </action> -->
 
   <action id="EditorIncreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="meta ADD" />
