@@ -545,12 +545,12 @@
     <keyboard-shortcut first-keystroke="alt W"/>
   </action>
   <action id="PinActiveTab">
-    <keyboard-shortcut first-keystroke="alt P" />
-    <keyboard-shortcut first-keystroke="meta P" />
+    <keyboard-shortcut first-keystroke="alt shift P" />
+    <keyboard-shortcut first-keystroke="meta shift P" />
   </action>
   <action id="PinToolwindowTab">
-    <keyboard-shortcut first-keystroke="alt P" />
-    <keyboard-shortcut first-keystroke="meta P" />
+    <keyboard-shortcut first-keystroke="alt shift P" />
+    <keyboard-shortcut first-keystroke="meta shift P" />
   </action>
 
   <!-- Vim flavored shortcut -->
