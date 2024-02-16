@@ -77,13 +77,16 @@
     <keyboard-shortcut first-keystroke="control ENTER"/>
   </action>
   <action id="Git.Reword.Commit">
-    <keyboard-shortcut first-keystroke="Shift F6"/>
+    <keyboard-shortcut first-keystroke="alt E"/>
+    <keyboard-shortcut first-keystroke="meta E"/>
   </action>
   <action id="Git.Rename.Local.Branch">
-    <keyboard-shortcut first-keystroke="Shift F6"/>
+    <keyboard-shortcut first-keystroke="alt E"/>
+    <keyboard-shortcut first-keystroke="meta E"/>
   </action>
   <action id="ChangesView.Rename">
-    <keyboard-shortcut first-keystroke="Shift F6"/>
+    <keyboard-shortcut first-keystroke="alt E"/>
+    <keyboard-shortcut first-keystroke="meta E"/>
   </action>
   <action id="BraceOrQuoteOut">
     <keyboard-shortcut first-keystroke="TAB"/>
@@ -110,11 +113,13 @@
   </action>
   <action id="XDebugger.SetValue">
     <!-- Default was F2. But F2 is occupied on my system for volume -->
-    <keyboard-shortcut first-keystroke="shift F6"/>
+    <keyboard-shortcut first-keystroke="alt E"/>
+    <keyboard-shortcut first-keystroke="meta E"/>
     <keyboard-shortcut first-keystroke="ENTER"/>
   </action>
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift F6"/>
+    <keyboard-shortcut first-keystroke="alt E"/>
+    <keyboard-shortcut first-keystroke="meta E"/>
   </action>
   <action id="$SelectAll">
     <keyboard-shortcut first-keystroke="control A"/>
