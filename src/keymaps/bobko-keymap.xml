@@ -195,14 +195,17 @@
     <keyboard-shortcut first-keystroke="meta shift H"/>
   </action>
   <action id="StepOver">
+    <keyboard-shortcut first-keystroke="F8"/>
     <keyboard-shortcut first-keystroke="alt shift J"/>
     <keyboard-shortcut first-keystroke="meta shift J"/>
   </action>
   <action id="Resume">
+    <keyboard-shortcut first-keystroke="F9"/>
     <keyboard-shortcut first-keystroke="alt shift K"/>
     <keyboard-shortcut first-keystroke="meta shift K"/>
   </action>
   <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="F7"/>
     <keyboard-shortcut first-keystroke="alt shift L"/>
     <keyboard-shortcut first-keystroke="meta shift L"/>
   </action>
