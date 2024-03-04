@@ -1,5 +1,13 @@
 <keymap version="1" name="bobko-keymap" disable-mnemonics="false">
   <!-- meta is command on macOS -->
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="alt E"/>
+    <keyboard-shortcut first-keystroke="meta E"/>
+  </action>
+  <action id="XDebugger.JumpToTypeSource">
+    <keyboard-shortcut first-keystroke="alt shift E"/>
+    <keyboard-shortcut first-keystroke="meta shift E"/>
+  </action>
 
   <!-- Basic bindings copied from \$default.xml. Minor modifications -->
   <action id="EditorDown">
@@ -573,14 +581,6 @@
   </action>
 
   <!-- module settings F4 -->
-  <action id="EditSource">
-    <keyboard-shortcut first-keystroke="alt E"/>
-    <keyboard-shortcut first-keystroke="meta E"/>
-  </action>
-  <action id="XDebugger.JumpToTypeSource">
-    <keyboard-shortcut first-keystroke="alt shift E"/>
-    <keyboard-shortcut first-keystroke="meta shift E"/>
-  </action>
 
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="alt M"/>
