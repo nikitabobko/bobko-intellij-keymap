@@ -252,6 +252,10 @@
     <keyboard-shortcut first-keystroke="meta 6"/>
     <keyboard-shortcut first-keystroke="alt 6"/>
   </action>
+  <!-- Use double shift esc to hide right tool window. Use Notifications tool window because it's on the right by default -->
+  <action id="ActivateNotificationsToolWindow">
+    <keyboard-shortcut first-keystroke="shift ESCAPE"/>
+  </action>
 
   <!-- ReadAccess and WriteAccess are swapped because it's more natural -->
   <action id="UsageFiltering.ReadAccess">
@@ -605,10 +609,6 @@
   </action>
 
   <!-- View Breakpoints... control shift F8 -->
-
-  <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="shift ESCAPE"/>
-  </action>
 
   <!-- double alt -->
   <!-- show history of current file -->
