@@ -619,6 +619,10 @@
     <keyboard-shortcut first-keystroke="meta BACK_SPACE"/>
   </action>
 
+  <!-- IdeaVIM -->
+  <!-- imap <C-S-n> <Action>(HippieCompletion) -->
+  <!-- imap <C-S-p> <Action>(HippieBackwardCompletion) -->
+
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="alt E"/>
     <keyboard-shortcut first-keystroke="meta E"/>
