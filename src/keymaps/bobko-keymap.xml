@@ -232,10 +232,6 @@
     <keyboard-shortcut first-keystroke="alt 2"/>
     <keyboard-shortcut first-keystroke="meta 2"/>
   </action>
-  <action id="ActivateCommitToolWindow">
-    <keyboard-shortcut first-keystroke="meta shift 2"/>
-    <keyboard-shortcut first-keystroke="alt shift 2"/>
-  </action>
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="meta 3"/>
     <keyboard-shortcut first-keystroke="alt 3"/>
@@ -294,11 +290,6 @@
 
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="control F6"/>
-  </action>
-
-  <action id="SelectInProjectView">
-    <keyboard-shortcut first-keystroke="alt shift 1"/>
-    <keyboard-shortcut first-keystroke="meta shift 1"/>
   </action>
 
   <action id="GotoAction">
