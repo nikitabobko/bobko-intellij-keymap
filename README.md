@@ -32,6 +32,7 @@ https://github.com/JetBrains/intellij-community/tree/master/platform/platform-re
 
 # Building the plugin
 
-1. `build.sh` script relies on GNU CLI tools. If you're on macOS then follow this instruction
-   https://gist.github.com/skyzyx/3438280b18e4f7c490db8a2a2ca0b9da
-2. run `build.sh`
+```shell
+brew install gnu-sed coreutils # on macOS. Not necessary on Linux
+./build.sh
+```
