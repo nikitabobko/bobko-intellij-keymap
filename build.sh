@@ -10,7 +10,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     install() { ginstall "$@"; }
 fi
 
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 rm -rf .build
 
 # Plugin layout:
@@ -28,22 +28,24 @@ build-jar() {
     mkdir -p .build/bobko-keymap-jar
     cp -r src/* .build/bobko-keymap-jar
     date_snapshot=$(date +"%Y-%m-%d.%H:%M:%S")
-    if [ ! -z "$(git status --porcelain)" ]; then
-        git add --all
-        git commit -m "SNAPSHOT $date_snapshot"
+    git_dirty_status=""
+    if ! test -z "$(git status --porcelain)"; then
+        echo "warning: git is dirty"
+        git_dirty_status=".git-is-dirty"
     fi
-    sed -i "s/VERSION_PLACEHOLDER/$date_snapshot.$(git rev-parse HEAD)/" .build/bobko-keymap-jar/META-INF/plugin.xml
-    pushd .build/bobko-keymap-jar
+    sed -i "s/VERSION_PLACEHOLDER/$date_snapshot.$(git rev-parse HEAD)$git_dirty_status/" .build/bobko-keymap-jar/META-INF/plugin.xml
+    cd .build/bobko-keymap-jar
         jar cf bobko-keymap.jar *
-    popd
+    cd - > /dev/null
 }
 
 build-plugin() {
     install -D -m644 .build/bobko-keymap-jar/bobko-keymap.jar \
                      .build/bobko-keymap/lib/bobko-keymap.jar
-    pushd .build
-        zip -r --verbose bobko-keymap.zip bobko-keymap
-    popd
+    cd .build
+        zip -r bobko-keymap.zip bobko-keymap
+    cd - > /dev/null
+    realpath .build/bobko-keymap.zip
 }
 
 build-jar
